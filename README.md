@@ -8,7 +8,7 @@ A Python script - running automatically, on a (hardcoded) scheduler; bundled as 
 
 • iterates through this list, using the previous list of objects obtained from the CSV file as a comparator - and separates the (CSV) list of objects into two other lists of objects: one with matching unique identifiers, and one with unmatched (new) unique identifiers
 
-• adds each of the objects contained within the latter, aforementioned, list of new objecs to the document collection in Fauna, via the Fauna API
+• adds each of the objects contained within the latter, aforementioned, list of new objects to the document collection in Fauna, via the Fauna API
 
 • compares the subarrays contained within the list of objects with a matching unique identifier - between Fauna and the CSV file - created earlier, with a corresponding subarray within the document collection in Fauna: and updates any mismatched values in Fauna with those from the CSV file
 
